@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie search</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/modal.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Movie App</h1>
+      <form>
+        <div class="form-group">
+          <input type="text" id="InputValue" placeholder="Movie name" />
+          <button type="submit" id="search">Search a movie</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="movies-searchable"></div>
+
+    <div id="movie-modal" class="modal" data-modal-name="movie-modal">
+      <div class="modal__dialog">
+        <button class="modal__close" data-modal-dismiss>×</button>
+        <header class="modal__header">
+          <h3 class="modal__title"></h3>
+        </header>
+        <div class="modal__img"></div>
+        <div class="modal__content"></div>
+        <div class="modal__reviews"></div>
+        <footer class="modal__footer">
+          <button data-modal-dismiss class="demo__btn">Dismiss</button>
+        </footer>
+      </div>
+    </div>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/css/modal.css"></script>
+    <script src="./assets/css/style.css"></script>
+  </body>
+</html>

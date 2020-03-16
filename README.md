@@ -1,2 +1,0 @@
-# moviesearch
-Created with CodeSandbox
